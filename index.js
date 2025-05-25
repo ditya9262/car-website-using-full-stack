@@ -10,11 +10,6 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-
-
-
-
-
 app.post("/sign_up",(req,res)=>{
     var name = req.body.name;
     var email = req.body.email;
